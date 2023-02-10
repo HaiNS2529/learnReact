@@ -7,11 +7,11 @@ import rootStore from "src/redux/store";
 function App() {
   return (
     <div className="App">
-      <Provider store={rootStore}>
+      {/* <Provider store={rootStore}>
         <AddTodo />
         <ListTodo />
         <Footer/>
-      </Provider>
+      </Provider> */}
     </div>
   );
 }
